@@ -611,7 +611,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Screen Time/Preview Content\"";
-				DEVELOPMENT_TEAM = U7XVUW953J;
+				DEVELOPMENT_TEAM = 9S4XQ7C637;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -619,12 +619,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Screen-Time";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.kwizie.Screen-Time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -642,7 +643,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Screen Time/Preview Content\"";
-				DEVELOPMENT_TEAM = U7XVUW953J;
+				DEVELOPMENT_TEAM = 9S4XQ7C637;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -650,12 +651,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Screen-Time";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.kwizie.Screen-Time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -669,7 +671,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Shield Action Extension/Shield_Action_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7XVUW953J;
+				DEVELOPMENT_TEAM = 9S4XQ7C637;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shield Action Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Shield Action Extension";
@@ -680,7 +682,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Screen-Time.Shield-Action-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.kwizie.Screen-Time.Shield-Action-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -695,7 +697,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Shield Action Extension/Shield_Action_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7XVUW953J;
+				DEVELOPMENT_TEAM = 9S4XQ7C637;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shield Action Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Shield Action Extension";
@@ -706,7 +708,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Screen-Time.Shield-Action-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.kwizie.Screen-Time.Shield-Action-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -721,7 +723,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Shield Configuration Extension/Shield_Configuration_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7XVUW953J;
+				DEVELOPMENT_TEAM = 9S4XQ7C637;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shield Configuration Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Shield Configuration Extension";
@@ -732,7 +734,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Screen-Time.Shield-Configuration-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.kwizie.Screen-Time.Shield-Configuration-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -747,7 +749,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Shield Configuration Extension/Shield_Configuration_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7XVUW953J;
+				DEVELOPMENT_TEAM = 9S4XQ7C637;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Shield Configuration Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Shield Configuration Extension";
@@ -758,7 +760,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Screen-Time.Shield-Configuration-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.kwizie.Screen-Time.Shield-Configuration-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -773,7 +775,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Device Activity Monitor Extension/Device_Activity_Monitor_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7XVUW953J;
+				DEVELOPMENT_TEAM = 9S4XQ7C637;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Device Activity Monitor Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Device Activity Monitor Extension";
@@ -785,7 +787,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Screen-Time.Device-Activity-Monitor-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.kwizie.Screen-Time.Device-Activity-Monitor-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -800,7 +802,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Device Activity Monitor Extension/Device_Activity_Monitor_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7XVUW953J;
+				DEVELOPMENT_TEAM = 9S4XQ7C637;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Device Activity Monitor Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Device Activity Monitor Extension";
@@ -812,7 +814,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mac.Screen-Time.Device-Activity-Monitor-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "fi.kwizie.Screen-Time.Device-Activity-Monitor-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;

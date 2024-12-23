@@ -18,7 +18,7 @@ class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         // Customize the shield as needed for applications.
         let config = ShieldConfiguration(
             backgroundColor: .systemCyan,
-            title: ShieldConfiguration.Label(text: "Do you really need to use this app?", color: .label),
+            title: ShieldConfiguration.Label(text: "(1) Do you really need to use this app?", color: .label),
             subtitle: ShieldConfiguration.Label(text: "Like are you sure?", color: .systemBrown),
             primaryButtonLabel: ShieldConfiguration.Label(text: "Unlock", color: .label),
             primaryButtonBackgroundColor: .systemGreen,
@@ -31,7 +31,7 @@ class ShieldConfigurationExtension: ShieldConfigurationDataSource {
         // Customize the shield as needed for applications shielded because of their category.
         let config = ShieldConfiguration(
             backgroundColor: .systemCyan,
-            title: ShieldConfiguration.Label(text: "Do you really need to use this category?", color: .label),
+            title: ShieldConfiguration.Label(text: "(2) Do you really need to use this category?", color: .label),
             subtitle: ShieldConfiguration.Label(text: "Like are you sure?", color: .systemBrown),
             primaryButtonLabel: ShieldConfiguration.Label(text: "Unlock", color: .label),
             primaryButtonBackgroundColor: .systemGreen,
@@ -42,11 +42,31 @@ class ShieldConfigurationExtension: ShieldConfigurationDataSource {
     
     override func configuration(shielding webDomain: WebDomain) -> ShieldConfiguration {
         // Customize the shield as needed for web domains.
-        ShieldConfiguration()
+        //ShieldConfiguration()
+        // Customize the shield as needed for applications shielded because of their category.
+        let config = ShieldConfiguration(
+            backgroundColor: .systemCyan,
+            title: ShieldConfiguration.Label(text: "(3) Do you really need to use this category?", color: .label),
+            subtitle: ShieldConfiguration.Label(text: "Like are you sure?", color: .systemBrown),
+            primaryButtonLabel: ShieldConfiguration.Label(text: "Unlock", color: .label),
+            primaryButtonBackgroundColor: .systemGreen,
+            secondaryButtonLabel: ShieldConfiguration.Label(text: "Don't unlock.", color: .label)
+        )
+        return config
     }
     
     override func configuration(shielding webDomain: WebDomain, in category: ActivityCategory) -> ShieldConfiguration {
         // Customize the shield as needed for web domains shielded because of their category.
-        ShieldConfiguration()
+        //ShieldConfiguration()
+        // Customize the shield as needed for applications shielded because of their category.
+        let config = ShieldConfiguration(
+            backgroundColor: .systemCyan,
+            title: ShieldConfiguration.Label(text: "(4) Do you really need to use this category?", color: .label),
+            subtitle: ShieldConfiguration.Label(text: "Like are you sure?", color: .systemBrown),
+            primaryButtonLabel: ShieldConfiguration.Label(text: "Unlock", color: .label),
+            primaryButtonBackgroundColor: .systemGreen,
+            secondaryButtonLabel: ShieldConfiguration.Label(text: "Don't unlock.", color: .label)
+        )
+        return config
     }
 }

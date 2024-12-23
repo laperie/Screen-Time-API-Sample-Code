@@ -35,13 +35,14 @@ struct ShieldView: View {
 private extension ShieldView {
     var selectButton: some View {
         Button(action: onPressSelect) {
-            Label("Select", systemImage: "gearshape.fill")
+            Label("Select categories", systemImage: "gearshape.fill")
         }
     }
     
     var lockButton: some View {
         Button(action: onLock) {
-            Image(systemName: "lock.fill")
+            Label("Apply settings", systemImage: "lock.fill")
+            //Image(systemName: "lock.fill")
         }
     }
 }

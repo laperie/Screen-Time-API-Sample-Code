@@ -20,13 +20,17 @@ class ShieldActionExtension: ShieldActionDelegate {
     let store = ManagedSettingsStore.shared
     
     override func handle(action: ShieldAction, for application: ApplicationToken, completionHandler: @escaping (ShieldActionResponse) -> Void) {
+        print("In ShieldActionExtension")
         // Handle the action as needed.
         switch action {
         case .primaryButtonPressed:
+            logger.debug( "Removed app from shielded applications (1)")
             store.shield.applications?.remove(application)
             completionHandler(.none)
         case .secondaryButtonPressed:
+            logger.debug( "Did not remove app from shielded applications (1)")
             completionHandler(.close)
+
         @unknown default:
             fatalError()
         }
@@ -41,9 +45,13 @@ class ShieldActionExtension: ShieldActionDelegate {
         // Handle the action as needed.
         switch action {
         case .primaryButtonPressed:
+            logger.debug( "Removed app from shielded applications (2)")
+
             store.shield.applicationCategories = nil
             completionHandler(.none)
         case .secondaryButtonPressed:
+            logger.debug( "Removed app from shielded applications (2)")
+
             completionHandler(.close)
         @unknown default:
             fatalError()
